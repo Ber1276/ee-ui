@@ -1,0 +1,17 @@
+{
+  "name": "@ee-ui/components",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test pnpm --filter @ee-ui/hooks build && vitest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "axios": "^1.8.4"
+  }
+}
